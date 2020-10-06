@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="estilo.css">
+</head>
+
+
+
+<body>
+	<div id="overlay" onclick="off()">
+  		<div id="text">Meus Gatos</div>
+  		<img src="Gatos.png" alt="Fotos de Gatos" width="796" height="450">
+  		<!-- Reza a Lenda que se tem gato no projeto, é nota máxima -->
+	</div>
+	<div class="setor">
+		<p></p>
+	</div>
+	<div class="title">
+		<p>ProjetoWeb</p>
+	</div>
+	<div class="menu_esquerda">
+  		<a href="#Início">Inicio</a>
+  		<a href="#Projetos">Projetos</a>
+  		<a href="#Sobre">Sobre</a>
+  		<a href="#Créditos">Creditos</a>
+	</div>
+	<div class="tooltip">ⓘ
+  		<span class="tooltiptext">Devido ao 2020.3, o andamento dos cursos onlines foram parados.</span>
+	</div>
+	<div class="main">
+		<h1> <a name="Início" id = "Início"> Inicio </ a> </h1>
+		<p>Bem Vindo ao Projeto Web de Artur Leal.Use o menu à esquerda para navegar pelo site</p>
+		<h1> <a name="Projetos" id = "Projetos"> Projetos </ a> </h1>
+		<p>Vida Acadêmica</p>
+		<ul>
+ 			<li>Bacharel em Ciência da Computação na Universidade Federal de Pernambuco</li>
+		</ul>
+		<p>Idiomas</p>
+		<ul>
+			<li>Inglês</li>
+				<p>Cursou Inglês na UPE (Prolinfo)</p>
+				<p>TCC: "Como a internet ajudou a trazer o Inglês para o cotidiano dos brasileiros"</p>
+			<li>Francês</li>
+				<p>Cursando Online <a href="https://www.udemy.com/course/curso-frances-completo/">(Acessar Site)</a></p>
+		</ul>
+		<p>Programação</p>
+		<ul>
+			<li>Python</li>
+				<p>Estudando no curso de Ciência da Computação</p>
+			<li>C++</li>
+				<p>Cursando Online <a href="https://www.udemy.com/course/beginning-c-plus-plus-programming/">(Acessar Site)</a></p>
+			<li>C#</li>
+				<p>Pretende fazer um curso de C# voltado para Unity</p>
+		</ul>
+		<h1> <a name="Sobre" id = "Sobre">Sobre </ a> </h1>
+		<ul>
+			<li>Jogos Favoritos: God of War, Bloodborne, The Witcher 3</li>
+			<li>Jogo que está jogando no momento: Fall Guys</li>
+			<li>Lista de livros para ler: Saga Senhor dos Aneis; Saga Ender's Game</li>
+			<li>Série acompanhando no momento: nenhuma</li>
+			<li>Gosta de: Música, <button class="button" onclick="on()">Gatos</button>, Cuzcuz</li>
+			<li>Não Gosta de: Uva Passa </li>
+		</ul>
+		<h1> <a name="Créditos" id = "Créditos">Créditos </ a> </h1>
+		<p>Links dos quais Foram tirados informações para a criação do Projeto:</p>
+		<p><a href="https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp">Menu Lateral</a></p>
+		<p><a href="https://www.w3schools.com/html/html_lists.asp">Listas</a></p>
+		<p><a href="https://www.w3schools.com/css/css_tooltip.asp">Avisos</a></p>
+		<p><a href="https://www.w3schools.com/howto/howto_css_overlay.asp">Sobreposição</a></p>
+	</div>
+	<script>
+	function on() {
+  		document.getElementById("overlay").style.display = "block";
+	}
+
+	function off() {
+  		document.getElementById("overlay").style.display = "none";
+	}	
+</script>
+</body>
+
+	
+</html>
